@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  .navbar-item {
+    padding: 1.2em;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar:hover {
+  background: linear-gradient(45deg,#00000046, #4444443d);
+  .navbar-item:hover {
+    border-bottom: 1px solid rgb(211, 211, 211);
+    a {
+      color: white;
+    }
+  }
+}
