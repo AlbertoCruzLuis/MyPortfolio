@@ -17,6 +17,15 @@ const ProjectData = {
       urlRepo: "https://github.com/AlbertoCruzLuis/TenerifeBeachApp",
       urlDemo: "https://albertocruzluis.github.io/TenerifeBeachApp/",
     },
+    {
+      name: "IA-ULL-Autonomous-Car",
+      description:
+        "Practice of artificial intelligence 2020 ULL. It is a simulator of an Autonomous Car made in React. Use Algorithm A* (A-Star)",
+      image:
+        "https://raw.githubusercontent.com/AlbertoCruzLuis/IA-ULL-Autonomous-Car/master/doc/IA-ULL-Autonomous-Car.png",
+      urlRepo: "https://github.com/AlbertoCruzLuis/IA-ULL-Autonomous-Car",
+      urlDemo: "https://albertocruzluis.github.io/IA-ULL-Autonomous-Car/",
+    },
   ],
 };
 
