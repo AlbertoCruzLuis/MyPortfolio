@@ -1,3 +1,5 @@
+@import '../../sass/base/colors';
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -5,7 +7,7 @@
   .navbar-item {
     padding: 1.2em;
     a {
-      color: black;
+      color: $black-color;
       text-decoration: none;
     }
   }
@@ -14,9 +16,9 @@
 .navbar:hover {
   background: linear-gradient(45deg,#00000046, #4444443d);
   .navbar-item:hover {
-    border-bottom: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid $white-color;
     a {
-      color: white;
+      color: $white-color;
     }
   }
 }

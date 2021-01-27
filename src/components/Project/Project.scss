@@ -1,14 +1,19 @@
+@import '../../sass/base/colors';
+
 .project {
+  display: flex;
+  flex-direction: column;
   margin: 30px;
   border-radius: 10px;
-  border: 2px solid rgba(0, 0, 0, 0.253);
+  border: 1px solid rgba(0, 0, 0, 0.253);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
-  background: linear-gradient(140deg,#24839b, #698113);
+  background: linear-gradient(140deg,$blue-color, $green-color);
 
   .project-image {
     position: relative;
     background-color: black;
     border-radius: 10px;
+    width: 100%;
     img {
       width: 100%;
       border-radius: 10px;
@@ -22,7 +27,7 @@
       right: 0;
       color: white;
       font-weight: bold;
-      font-size: 1.4em;
+      font-size: calc(1.2em + 0.4vw);
 
       span {
         display: flex;
@@ -58,6 +63,8 @@
   .project-buttons {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    flex: 1;
   }
 
   .project-button {
@@ -66,9 +73,8 @@
 }
 
 .project-flip {
-  position: relative;
   .project-back {
-
+    position: relative;
     .project-image {
       background-color: black;
       border-radius: 10px;
@@ -107,9 +113,9 @@
       margin: 15px;
       left: 0;
       right: 0;
-      top: 50%;
+      top: 45%;
       text-align: center;
-      font-size: 1.1em;
+      font-size: calc(1em + 0.4vw);
       color: white;
     }
   }

@@ -20,15 +20,17 @@ const ListProject = () => {
       <div className="list-project-title">
         <span>Projects</span>
       </div>
-      {ProjectData.projects.map((project) => (
-        <Project
-          name={project.name}
-          description={project.description}
-          image={project.image}
-          url_repo={project.urlRepo}
-          url_demo={project.urlDemo}
-        />
-      ))}
+      <div className="project-grid">
+        {ProjectData.projects.map((project) => (
+          <Project
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            url_repo={project.urlRepo}
+            url_demo={project.urlDemo}
+          />
+        ))}
+      </div>
     </div>
   );
 };

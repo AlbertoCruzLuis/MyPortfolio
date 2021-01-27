@@ -4,14 +4,14 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar-item">
         <Link to="/">Home</Link>
       </div>
       <div className="navbar-item">
         <Link to="/projects">Projects</Link>
       </div>
-    </div>
+    </nav>
   );
 };
 

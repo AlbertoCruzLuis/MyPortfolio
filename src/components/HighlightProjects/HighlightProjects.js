@@ -9,15 +9,17 @@ const HighlightProjects = () => {
       <div className="highlight-projects-title">
         <h1>Projects</h1>
       </div>
-      {ProjectData.projects.map((project) => (
-        <Project
-          name={project.name}
-          description={project.description}
-          image={project.image}
-          url_repo={project.urlRepo}
-          url_demo={project.urlDemo}
-        />
-      ))}
+      <div className="project-grid">
+        {ProjectData.projects.map((project) => (
+          <Project
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            url_repo={project.urlRepo}
+            url_demo={project.urlDemo}
+          />
+        ))}
+      </div>
     </div>
   );
 };

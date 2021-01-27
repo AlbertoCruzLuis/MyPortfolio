@@ -26,6 +26,15 @@ const ProjectData = {
       urlRepo: "https://github.com/AlbertoCruzLuis/IA-ULL-Autonomous-Car",
       urlDemo: "https://albertocruzluis.github.io/IA-ULL-Autonomous-Car/",
     },
+    {
+      name: "Tic-Tac-Toe-React",
+      description:
+        "This is Tic Tac Toe game made in React with minimax algorithm.",
+      image:
+        "https://raw.githubusercontent.com/AlbertoCruzLuis/Tic-Tac-Toe-React/master/doc/Tic-Tac-Toe-React.png",
+      urlRepo: "https://github.com/AlbertoCruzLuis/Tic-Tac-Toe-React",
+      urlDemo: "https://albertocruzluis.github.io/Tic-Tac-Toe-React/",
+    },
   ],
 };
 
